@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AccessController" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAABAAEAAiAAAAAAABCAAAIAAAAAA=</HashCode>
+      <FileName>AccessController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AgeRestrictedProduct" Collapsed="true">
+    <Position X="4.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAgAAABAAAIEABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutonomousNavigationRobot" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAABAAAAAAAAQAABAABBACgAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>InventoryRobot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankCardPayment" Collapsed="true">
+    <Position X="14.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAgAEAAAAAAgAAAAAAAAMAAAIAQEAAIQAAAAAA=</HashCode>
+      <FileName>PaymentSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicCamera" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAABAAACAAAAAAABAAAAAAAAABAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAEAAAAAAAAIAQBAAQDACAAAQAACAAQAAAAABAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Configurator" Collapsed="true">
+    <Position X="11.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAQAgAAAAWAAAAAAAAAAAAAACABAAAAhAAAAAAAAA=</HashCode>
+      <FileName>Configurator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorporateCustomer" Collapsed="true">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAIBAAAAAAAAACAAAAAAAAAAQAAkE=</HashCode>
+      <FileName>Customer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Customer" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgUAAQAAAAAAAAAAABAAAAAAAEAGBEAAAAAEAAAAAgA=</HashCode>
+      <FileName>Customer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DroneInventoryRobot" Collapsed="true">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABIABAAAQIACAACAAAAAAAIAACA=</HashCode>
+      <FileName>InventoryRobot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FaceRecognitionCamera" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAIAABAAQCAAAAAAABAAAAAAAAEBAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GuestCustomer" Collapsed="true">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAABAAAEAAAAACAAIIAAAAAAABAAA=</HashCode>
+      <FileName>Customer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryRobot" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAABAABBBAgAAAAgCAGAAAABAAAAA=</HashCode>
+      <FileName>InventoryRobot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventorySystem" Collapsed="true">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAQAAAAgBAAAAAIAEAAAIABACAAAAACAAE=</HashCode>
+      <FileName>InventorySystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoyaltyCustomer" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAGAAAAAAAABAAAAAAAJACAAAAIAAAAACAAIA=</HashCode>
+      <FileName>Customer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoyaltyPointsPayment" Collapsed="true">
+    <Position X="13" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAQAgAAAAAAAAQAAAAAAEAAKAAAAAAA=</HashCode>
+      <FileName>PaymentSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotionSensor" Collapsed="true">
+    <Position X="7" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAUAAAAAAIIABAAIAAQAIAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>MotionSensor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PaymentSystem" Collapsed="true">
+    <Position X="13" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAEAAIAAAAAAA=</HashCode>
+      <FileName>PaymentSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RailGuidedRobot" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABAAAEAAAAAAAAIBAABAAAAAAAAACAAAAAAAAAABA=</HashCode>
+      <FileName>InventoryRobot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RFIDBasedShelf" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEAAIAAAAAgAJAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>SmartShelf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShoppingCart" Collapsed="true">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAACAAAAIAAAEAAiBoABAAgAAAAAAAEIQEBAAAQA=</HashCode>
+      <FileName>ShoppingCart.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopSimulation" Collapsed="true">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEBgFgAAAAAAAAAUAAEAiQAAAAAAECBAABAAAEAA=</HashCode>
+      <FileName>ShopSimulation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartShelf" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIAgkAAgAAACAAAABQAAAACAEAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>SmartShelf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Turnstile" Collapsed="true">
+    <Position X="6.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEEAAAAAAABAAAAACQCgAAAAAAgAAAAAAAMg=</HashCode>
+      <FileName>Turnstile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeightBasedShelf" Collapsed="true">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAQIAAAEBAAAAAAAAAAAAABAAAAAAgAKAA=</HashCode>
+      <FileName>SmartShelf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeightedProduct" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAhAAABAQgAEAAAAAAAAACIAAAAAgAAA=</HashCode>
+      <FileName>Product.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Product" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAQAIAAAACAgAABABQREQAAAEAEAiAAAEAAAAAAA=</HashCode>
+      <FileName>Product.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProductRecognitionCamera" Collapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAAAAIAAIAABAAACAAAAAAAAAAAAACAAADAAI=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckoutScale" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEAAABAACCAAABQAAAACAIAAAAAAAAAQAAAgAAA=</HashCode>
+      <FileName>CheckoutScale.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighPrecisionScale" Collapsed="true">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAACAAABAAAAAAAIAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>CheckoutScale.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IndustrialScale" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAKAAABAAAAAAAIAAAAAAAEAAAAAABAA=</HashCode>
+      <FileName>CheckoutScale.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarcodeScale" Collapsed="true">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACQBABAAAAAAAIAAAAAAAAAAQAAAABA=</HashCode>
+      <FileName>CheckoutScale.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartScale" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAAAAAAEACAAABAAAAAAAIAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>CheckoutScale.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobileAppPayment" Collapsed="true">
+    <Position X="11.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAAAgAAAAAAAAAAAAACAEAAIAAAQAAA=</HashCode>
+      <FileName>PaymentSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegularProduct" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAABAAAAEAAAAAAAAAAAAAAQAACAA=</HashCode>
+      <FileName>Product.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

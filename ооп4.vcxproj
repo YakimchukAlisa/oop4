@@ -128,19 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AccessController.cpp" />
-    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="CheckOutScale.cpp" />
     <ClCompile Include="Configurator.cpp" />
     <ClCompile Include="Customer.cpp" />
-    <ClCompile Include="InventoryRobot.cpp" />
-    <ClCompile Include="InventorySystem.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MotionSensor.cpp" />
     <ClCompile Include="PaymentSystem.cpp" />
     <ClCompile Include="Product.cpp" />
     <ClCompile Include="ShoppingCart.cpp" />
     <ClCompile Include="ShopSimulation.cpp" />
-    <ClCompile Include="SmartShelf.cpp" />
     <ClCompile Include="Turnstile.cpp" />
     <ClCompile Include="ооп4.cpp" />
   </ItemGroup>

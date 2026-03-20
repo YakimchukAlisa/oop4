@@ -21,9 +21,6 @@
     <ClCompile Include="AccessController.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Camera.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="CheckOutScale.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -33,16 +30,7 @@
     <ClCompile Include="Customer.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="InventoryRobot.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="InventorySystem.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="MotionSensor.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="PaymentSystem.cpp">
@@ -55,9 +43,6 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="ShopSimulation.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="SmartShelf.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Turnstile.cpp">

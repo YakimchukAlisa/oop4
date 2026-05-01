@@ -1,20 +1,14 @@
 #pragma once
-#include <iostream>
+#include <string>
 
 class CheckoutScale {
-protected:
-    int id;
-    double expectedWeight;
-    double precision;
 public:
-    CheckoutScale(int id, double prec = 1.0);
-    void setExpectedWeight(double w) { expectedWeight = w; }
-    virtual bool verifyWeight() = 0;
     virtual ~CheckoutScale() = default;
-};
 
-class HighPrecisionScale : public CheckoutScale {
-public:
-    HighPrecisionScale(int id);
-    bool verifyWeight() override;
+    virtual double weigh() = 0;
+    virtual bool verifyWeight(double expected) = 0;
+    virtual void setExpectedWeight(double weight) = 0;
+    virtual double getMaxWeight() const = 0;
+    virtual double getPrecision() const = 0;
+    virtual std::string getType() const = 0;
 };

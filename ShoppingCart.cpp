@@ -12,6 +12,7 @@ void ShoppingCart::addItem(std::shared_ptr<Product> product) {
     std::cout << "Корзина: добавлен " << product->getName() << " (" << product->getPrice() << " руб.)\n";
 }
 
+
 double ShoppingCart::calculateTotal() {
     totalPrice = 0;
     for (auto& p : items) totalPrice += p->getPrice();
@@ -26,12 +27,8 @@ double ShoppingCart::calculateTotalWeight() {
 
 double ShoppingCart::calculateFinalPrice(std::shared_ptr<Customer> customer) {
     double base = calculateTotal();
-    auto loyalty = std::dynamic_pointer_cast<LoyaltyCustomer>(customer);
-    if (loyalty) {
-        std::cout << "Корзина: делегирую расчёт скидки покупателю\n";
-        return loyalty->applyDiscount(base);
-    }
-    return base;
+    double discount = customer->getDiscount(base);  
+    return base - discount;
 }
 
 void ShoppingCart::displayCart() const {

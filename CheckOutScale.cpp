@@ -13,7 +13,7 @@ bool HighPrecisionScale::verifyWeight() {
     std::this_thread::sleep_for(std::chrono::milliseconds(100));
 
     int r = rand() % 100;
-    double actual = (r < 95) ? expectedWeight : expectedWeight + (rand() % 500) - 250;
+    double actual = (r < 70) ? expectedWeight : expectedWeight + (rand() % 500) - 250;
     if (actual < 0) actual = 0;
 
     std::cout << "  Фактический вес: " << actual << " г\n";
@@ -25,3 +25,4 @@ bool HighPrecisionScale::verifyWeight() {
     std::cout << "  Расхождение веса!\n";
     return false;
 }
+

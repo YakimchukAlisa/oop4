@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AccessController.cpp" />
-    <ClCompile Include="CheckOutScale.cpp" />
+    <ClCompile Include="AutoDoor.cpp" />
     <ClCompile Include="Configurator.cpp" />
     <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="HighPrecisionScale.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PaymentSystem.cpp" />
+    <ClCompile Include="PostalScale.cpp" />
     <ClCompile Include="Product.cpp" />
     <ClCompile Include="ShoppingCart.cpp" />
     <ClCompile Include="ShopSimulation.cpp" />
@@ -141,14 +143,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AccessController.h" />
+    <ClInclude Include="AutoDoor.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="CheckoutScale.h" />
     <ClInclude Include="Configurator.h" />
     <ClInclude Include="Customer.h" />
+    <ClInclude Include="HighPrecisionScale.h" />
+    <ClInclude Include="IExitDevice.h" />
     <ClInclude Include="InventoryRobot.h" />
     <ClInclude Include="InventorySystem.h" />
     <ClInclude Include="MotionSensor.h" />
     <ClInclude Include="PaymentSystem.h" />
+    <ClInclude Include="PostalScale.h" />
     <ClInclude Include="Product.h" />
     <ClInclude Include="ShoppingCart.h" />
     <ClInclude Include="ShopSimulation.h" />

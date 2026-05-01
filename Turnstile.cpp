@@ -1,24 +1,41 @@
 #include "Turnstile.h"
+#include <iostream>
 
-Turnstile::Turnstile(int id, const std::string& loc) : id(id), location(loc), locked(true) {}
+Turnstile::Turnstile(int id, const std::string& loc)
+    : id(id), location(loc), locked(true) {}
+
+void Turnstile::open() {
+    if (locked) {
+        std::cout << "Турникет " << id << " (" << location << "): РАЗБЛОКИРОВАН\n";
+        locked = false;
+    }
+    else {
+        std::cout << "Турникет " << id << " (" << location << "): уже открыт\n";
+    }
+}
+
+void Turnstile::close() {
+    if (!locked) {
+        std::cout << "Турникет " << id << " (" << location << "): ЗАБЛОКИРОВАН\n";
+        locked = true;
+    }
+}
+
+bool Turnstile::isOpen() const {
+    return !locked;
+}
+
+std::string Turnstile::getType() const {
+    return "Турникет";
+}
 
 void Turnstile::unlockForEntry() {
-    std::cout << "Турникет " << id << " (" << location << "): открыт для входа\n";
+    std::cout << "Турникет " << id << " (" << location << "): открыт для ВХОДА\n";
     locked = false;
-    lock();
-}
-
-void Turnstile::unlockForExit() {
-    std::cout << "Турникет " << id << " (" << location << "): открыт для выхода\n";
-    locked = false;
-    lock();
-}
-
-void Turnstile::lock() {
-    std::cout << "Турникет заблокирован\n";
-    locked = true;
+    close();  // сразу закрываем после прохода
 }
 
 void Turnstile::displayInfo() const {
-    std::cout << "Турникет " << id << " (" << location << ") — " << (locked ? "закрыт" : "открыт") << "\n";
+    std::cout << "Турникет " << id << " (" << location << ") — "
+        << (locked ? "ЗАКРЫТ" : "ОТКРЫТ") << "\n";
 }

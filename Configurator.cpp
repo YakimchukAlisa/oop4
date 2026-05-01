@@ -23,7 +23,6 @@ void Configurator::loadConfiguration(const std::string& filename) {
 
 void Configurator::displayConfiguration() const {
     std::cout << "\n=== КОНФИГУРАЦИЯ ===\n";
-    // Исправлено: убраны структурированные привязки (не нужен C++17)
     for (auto it = settings.begin(); it != settings.end(); ++it) {
         std::cout << it->first << " = " << it->second << "\n";
     }

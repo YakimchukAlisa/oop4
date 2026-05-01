@@ -12,6 +12,9 @@ public:
     virtual bool authenticate(const std::string& credentials) = 0;
     int getId() const { return id; }
     std::string getName() const { return name; }
+    virtual double getDiscount(double price) const {
+        return 0;  // по умолчанию скидки нет
+    }
 };
 
 class GuestCustomer : public Customer {
@@ -26,4 +29,5 @@ public:
     LoyaltyCustomer(int id, const std::string& name, double discount);
     bool authenticate(const std::string& credentials) override;
     double applyDiscount(double price) const;
+    double getDiscount(double price) const override { return price * discountRate; }
 };
